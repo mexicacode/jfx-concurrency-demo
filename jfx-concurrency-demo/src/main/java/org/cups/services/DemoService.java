@@ -1,13 +1,9 @@
-package org.cups.backend;
+package org.cups.services;
 
-public class StringOps implements Runnable{
+public class DemoService{
 
 	private int  count = 0;
-	
-	@Override
-	public void run() {
 
-	}
 	
 	public synchronized void imprime(String name) {
 		incrementCount();
